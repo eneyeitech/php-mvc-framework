@@ -1,0 +1,14 @@
+{
+    "name": "user/php-mvc-framework",
+    "autoload": {
+        "psr-4": {
+            "User\\PhpMvcFramework\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Abdulmumin Eneye Abdulkarim"
+        }
+    ],
+    "require": {}
+}
