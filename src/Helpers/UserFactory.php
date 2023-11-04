@@ -14,9 +14,9 @@ class UserFactory
 
     static public function createUsers($users)
     {
-        $arr = array();
+        $arr = [];
         foreach ($users as $user) {
-            $arr = array_push($arr, static::createUser($user["name"], $user["email"]));
+            array_push($arr, static::createUser($user["name"], $user["email"]));
         }
         return $arr;
     }
