@@ -6,7 +6,7 @@ class JSONFileHandler
 {
     static protected $directory = __DIR__ . '/../data/';
 
-    static public function getContents($file)
+    static private function getContents($file)
     {
         $file_path = static::$directory . $file;
 
@@ -16,5 +16,11 @@ class JSONFileHandler
         }
 
         return false;
+    }
+
+    static public function getContentAsArray($file){
+        $file = isset($file) && !empty($file) ? $file : "blank.json";
+        $contents = static::getContents($file);
+        return is_array($contents) ? $contents : [];
     }
 }
