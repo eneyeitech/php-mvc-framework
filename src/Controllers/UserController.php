@@ -4,6 +4,7 @@ namespace MVC\Controllers;
 
 use MVC\Controller;
 use MVC\Models\User;
+use MVC\Helpers\JSONFileHandler;
 
 class UserController extends Controller {
     public function index(){
