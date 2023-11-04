@@ -1,7 +1,7 @@
 <?php
 
 namespace MVC;
-
+use MVC\Controller;
 class Router
 {
     protected $routes = [];
@@ -20,7 +20,9 @@ class Router
             $controller = new $controller();
             $controller->$action();
         } else {
-            throw new \Exception("No route found for URI: $uri");
+            $controller = new Controller();
+            $controller->notfound(['page'=>$uri]);
+            //throw new \Exception("No route found for URI: $uri");
         }
     }
 }

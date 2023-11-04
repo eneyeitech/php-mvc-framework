@@ -1,8 +1,9 @@
 <?php
 
-require 'vendor/autoload.php';
+require __DIR__ . '/vendor/autoload.php';
 
 $uri = $_SERVER['REQUEST_URI'];
 
-$router = require 'src/routes.php';
+require __DIR__ .  '/src/routes.php';
+
 $router->dispatch($uri);
