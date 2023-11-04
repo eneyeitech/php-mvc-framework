@@ -12,6 +12,6 @@ class Controller {
     public function notfound($data) {     
         extract($data);
         
-        include __DIR__ . "/Views/404.php";
+        include __DIR__ . "/Views/404.phtml";
     }
 }
