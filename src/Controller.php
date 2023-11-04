@@ -6,7 +6,7 @@ class Controller {
     protected function render($view, $data = []) {
         extract($data);
         
-        include __DIR__ . "/Views/$view.php";
+        include __DIR__ . "/Views/$view.phtml";
     }
 
     public function notfound($data) {     
