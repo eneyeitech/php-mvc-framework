@@ -1,6 +1,6 @@
 <?php
 
-namespace MVC;
+namespace MVC\Helpers;
 
 class JSONFileHandler
 {
