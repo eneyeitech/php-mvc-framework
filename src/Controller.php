@@ -2,6 +2,8 @@
 
 namespace MVC;
 
+use MVC\Helpers\Config;
+
 class Controller
 {
 
@@ -10,6 +12,16 @@ class Controller
     protected $view;
     protected $partial;
     protected $data;
+
+    static protected $config_path = __DIR__ . '/../config';
+    protected $siteDetails;
+
+    function __construct()
+    {
+        Config::setDirectory(static::$config_path);
+        $this->siteDetails = Config::get('site');
+        
+    }
 
 
     protected function render($view, $data = [])
