@@ -26,7 +26,7 @@ I will explain the workflow to follow when editing this source code.
 ### data and config folder
 This two folders are not include in the git repo. The data and config directory contain site meta and config information.
 
-![Image](config_dir.PNG)
+![Image](./config_dir.PNG)
 
 ### Use Case: Adding a home page route '/'
 
