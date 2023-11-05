@@ -21,6 +21,13 @@ Yaml is human readable allowing for easy data typing
 
 I will explain the workflow to follow when editing this source code.
 
+## Directory
+
+### data and config folder
+This two folders are not include in the git repo. The data and config directory contain site meta and config information.
+
+![Image](config_dir.PNG)
+
 ### Use Case: Adding a home page route '/'
 
 - Creating the controller class: In /src/Controllers, Create a HomeController class that extends the MVC\Controller class located in /src.
