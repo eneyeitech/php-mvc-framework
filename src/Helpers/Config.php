@@ -1,4 +1,6 @@
-<?php namespace DeptTemplate;
+<?php 
+
+namespace MVC\Helpers;
 
 /**
  * Config 
