@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title><?php echo isset($title) ? $title : 'MVC'?></title>
+    <!-- Title -->
+    <title><?php echo $vPage == 'index' ? 'Home | ': $title . ' | '; echo "$deptName  |  $instName" ;  ?></title>
 </head>
 <body>
 
