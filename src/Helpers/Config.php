@@ -2,6 +2,8 @@
 
 namespace MVC\Helpers;
 
+use Symfony\Component\Yaml\Yaml;
+
 /**
  * Config 
  */
@@ -35,5 +37,23 @@ class Config
         self::$config[$config] = require self::$directory . '/' . $config . '.php';
 
         return self::$config[$config];
+    }
+
+    /**
+    *  get config 
+    *
+    *  @param string $config
+    *  @return string
+    */
+    static public function getYaml($config)
+    {
+        $config = strtolower($config);
+
+        self::$config[$config] = self::$directory . '/' . $config . '.yml';
+        $filePath = self::$config[$config];
+        
+        $content = Yaml::parseFile($filePath);
+
+        return $content;
     }
 }

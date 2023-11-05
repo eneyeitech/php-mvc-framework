@@ -27,3 +27,10 @@ I will explain the workflow to follow when editing this source code.
     $router->addRoute('/', HomeController::class, 'index');
 ```   
 The first argument is route uri, second argument is controller, and third argument is action.
+
+## Site Details
+We have information specific to the site
+
+1. Site wide information
+1. Page specific information
+1. Section (partials) specific information
