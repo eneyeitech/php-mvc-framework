@@ -5,6 +5,18 @@ This is a department web framework built using mvc architectural pattern
 ## Data
 Make sure that you have a user json file in a folder named data on the project root directory data/user.json.
 
+### YAML: An alternative to JSON
+
+Yaml is human readable allowing for easy data typing
+```
+- id: 1
+  name: Abdulmumin Eneye
+  email: eneye@gmail.com
+- id: 2
+  name: Yusuf Abdulkarim
+  email: abdul@gmail.com
+```
+
 ## Development
 
 I will explain the workflow to follow when editing this source code.
