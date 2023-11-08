@@ -7,6 +7,6 @@ use MVC\Controllers\UserController;
 
 $router = new Router();
 
-$router->addRoute('/user', UserController::class, 'index');
 $router->addRoute('/', HomeController::class, 'index');
+$router->addRoute('/user', UserController::class, 'index');
 $router->addRoute('/creative', CreativeController::class, 'home');

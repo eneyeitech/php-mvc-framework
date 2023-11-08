@@ -7,6 +7,12 @@ use MVC\Helpers\Config;
 
 class CreativeController extends Controller
 {
+
+    function __construct()
+    {
+        parent::__construct('/Views/base_2.phtml');   
+    }
+
     public function home()
     {
         $this->siteDetails['vPage'] = 'index';
