@@ -8,7 +8,8 @@ class Controller
 {
 
     static protected $directory = __DIR__ . '/Views/';
-    static protected $base_view = __DIR__ . '/Views/base.phtml';
+    //static protected $base_view = __DIR__ . '/Views/base.phtml';
+    static protected $base_view_2 = __DIR__ . '/Views/base_2.phtml';
     protected $view;
     protected $partial;
     protected $data;
@@ -32,7 +33,7 @@ class Controller
         
         extract($data);
 
-        include static::$base_view;
+        include static::$base_view_2;
     }
 
     public function notfound($data)
