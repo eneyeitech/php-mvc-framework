@@ -12,6 +12,6 @@ class HomeController extends Controller
     {
         $this->siteDetails['vPage'] = 'index';
         $this->siteDetails['title'] = 'Academic Staff';
-        $this->render('home/index', $this->siteDetails);
+        $this->render('pages/defaultConceptTest/index', $this->siteDetails);
     }
 }

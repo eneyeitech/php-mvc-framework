@@ -18,7 +18,7 @@ class UserController extends Controller {
         $this->siteDetails['title'] = 'Users';
         $this->siteDetails['users'] = $users;
         
-        $this->render('user/index', $this->siteDetails);
+        $this->render('pages/defaultConceptTest/user/index', $this->siteDetails);
     }
 
     

@@ -10,7 +10,7 @@ class CreativeController extends Controller
 
     function __construct()
     {
-        parent::__construct('/Views/base_2.phtml');   
+        parent::__construct('/Views/base_creative.phtml');   
     }
 
     public function home()
