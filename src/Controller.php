@@ -52,8 +52,10 @@ class Controller
     {
         $partial = static::$directory . $partial;
         $this->partial = is_null($partial) || !file_exists($partial) ? static::$directory . '_blank.phtml' : $partial;
-
-        extract($data);
+        
+        $this->data = array_merge($this->data, $data);
+        
+        extract($this->data);
 
         include $this->partial;
     }

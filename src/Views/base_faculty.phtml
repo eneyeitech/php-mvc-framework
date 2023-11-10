@@ -31,23 +31,23 @@
         <link rel="stylesheet" href="assets/faculty/css/responsive.css">
 
         <link rel="icon" type="image/png" href="assets/faculty/images/favicon.png">
-        <title>Sanu - College University HTML Template</title>
+        <title><?php echo $vPage == 'index' ? 'Home | ': $title . ' | '; echo "$deptName  |  $instName" ;  ?></title>
     </head>
     <body>
         <!-- Start Preloader Area -->
-        
+        <?php $this->include("partials/faculty/_preloader.phtml") ?>
         <!-- End Preloader Area -->
 
         <!--Strat Top Header Area-->
-        
+        <?php $this->include("partials/faculty/_top--header.phtml") ?>
         <!--End Top Header Area-->
-
-        <!-- Start Navbar Area --> 
         
+        <!-- Start Navbar Area --> 
+        <?php $this->include("partials/faculty/_navbar.phtml") ?>
         <!-- End Navbar Area -->
 
         <!-- Sidebar Modal -->
-        
+        <?php $this->include("partials/faculty/_sidebar--modal.phtml") ?>
         <!-- End Sidebar Modal -->
 
         <!--Start Banner Area-->

@@ -301,8 +301,7 @@
   .campus-content.style-2 {
     margin-left: 0;
     padding: 0;
-    -webkit-box-shadow: none;
-            box-shadow: none;
+    box-shadow: none;
   }
   .counter-card {
     margin-bottom: 20px;
@@ -409,8 +408,7 @@
   }
   .description .nav-tabs {
     margin-bottom: 25px;
-    -webkit-box-shadow: none;
-            box-shadow: none;
+    box-shadow: none;
   }
   .description .nav-tabs .nav-link {
     padding: 10px 20px;
@@ -461,8 +459,7 @@
   }
   .single-reviews-card img {
     position: unset;
-    -webkit-transform: translateY(0);
-            transform: translateY(0);
+    transform: translateY(0);
     margin-bottom: 15px;
   }
   .single-reviews-card .date {
@@ -823,8 +820,7 @@
   }
   .comments img {
     position: unset;
-    -webkit-transform: translateY(0);
-            transform: translateY(0);
+    transform: translateY(0);
     margin-bottom: 20px;
   }
   .comments h4 {
@@ -914,7 +910,7 @@
   }
   .interview-content::before {
     position: absolute;
-    content: '';
+    content: "";
     background-color: rgba(31, 44, 117, 0.7);
     height: 100%;
     width: 100%;
@@ -1051,13 +1047,11 @@
     line-height: 40px;
   }
 }
-
 @media only screen and (min-width: 576px) and (max-width: 767px) {
   .container-fluid {
     max-width: 540px !important;
   }
 }
-
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .ptb-100 {
     padding-top: 50px;
@@ -1372,8 +1366,7 @@
   .campus-content.style-2 {
     margin-left: 0;
     padding: 0;
-    -webkit-box-shadow: none;
-            box-shadow: none;
+    box-shadow: none;
   }
   .counter-card {
     margin-bottom: 20px;
@@ -1891,7 +1884,7 @@
   }
   .interview-content::before {
     position: absolute;
-    content: '';
+    content: "";
     background-color: rgba(31, 44, 117, 0.7);
     height: 100%;
     width: 100%;
@@ -2024,7 +2017,6 @@
     line-height: 40px;
   }
 }
-
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .pl-20 {
     padding-left: 0;
@@ -2084,8 +2076,7 @@
   }
   .campus-content.style-2 {
     padding: 0;
-    -webkit-box-shadow: none;
-            box-shadow: none;
+    box-shadow: none;
     margin-left: 0;
   }
   .campus-slider2 {
@@ -2526,7 +2517,7 @@
   }
   .interview-content::before {
     position: absolute;
-    content: '';
+    content: "";
     background-color: rgba(31, 44, 117, 0.7);
     height: 100%;
     width: 100%;
@@ -2562,7 +2553,6 @@
     padding: 15px 25px;
   }
 }
-
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
   .top-header-area .container-fluid {
     max-width: 1140px;
@@ -2612,13 +2602,11 @@
     padding: 14px 25px;
   }
 }
-
 /* Mobile and iPad Navbar */
 @media only screen and (max-width: 991px) {
   .navbar-area {
     background-color: #ffffff;
-    -webkit-box-shadow: 0 0 20px 3px rgba(0, 0, 0, 0.05);
-            box-shadow: 0 0 20px 3px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 0 20px 3px rgba(0, 0, 0, 0.05);
     z-index: 2;
     padding-top: 20px;
     padding-bottom: 20px;
@@ -2627,16 +2615,14 @@
     display: none;
   }
   .navbar-area.navbar-top {
-    -webkit-transform: translateY(0);
-            transform: translateY(0);
+    transform: translateY(0);
   }
   .navbar-area.nav-bg-3 {
     border-bottom: none;
   }
   .navbar-area.nav-bg-3.is-sticky {
     background: #ffffff;
-    -webkit-box-shadow: 0 0 20px 3px rgba(0, 0, 0, 0.05);
-            box-shadow: 0 0 20px 3px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 0 20px 3px rgba(0, 0, 0, 0.05);
   }
   .mobile-responsive-nav {
     display: block;
@@ -2687,8 +2673,7 @@
     font-size: 15px;
   }
   .mobile-responsive-nav .mobile-responsive-menu.mean-container .navbar-nav {
-    -webkit-box-shadow: 0 7px 13px 0 rgba(0, 0, 0, 0.1);
-            box-shadow: 0 7px 13px 0 rgba(0, 0, 0, 0.1);
+    box-shadow: 0 7px 13px 0 rgba(0, 0, 0, 0.1);
     margin-top: 0 !important;
     max-height: 50vh;
     overflow-y: scroll;
@@ -2740,5 +2725,4 @@
   .others-option-for-responsive {
     display: block !important;
   }
-}
-/*# sourceMappingURL=responsive.css.map */
+}/*# sourceMappingURL=responsive.css.map */
