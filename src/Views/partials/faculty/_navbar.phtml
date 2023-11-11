@@ -18,170 +18,70 @@
                 <a class="navbar-brand" href="index.html">
                     <img src="assets/faculty/images/white-logo.png" alt="logo">
                 </a>
-                <div class="site-brand-name">
+                <div class="site-brand-name" style="padding-right:50px; border-right: 1px solid gray;">
                     <span style="color:#008753"><?=$qualifiedName?></span> <br />
                     <?=$instName?>
                 </div>
                 <div class="collapse navbar-collapse mean-menu" id="navbarSupportedContent">
                     <ul class="navbar-nav ms-auto">
-                        <li class="nav-item">
-                            <a href="#" class="nav-link dropdown-toggle active">
-                                Home
-                            </a>
-                            <ul class="dropdown-menu">
-                                <li class="nav-item">
-                                    <a href="index.html" class="nav-link active">Home One</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a href="index-2.html" class="nav-link">Home Two</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a href="index-3.html" class="nav-link">Home Three</a>
-                                </li>
-                            </ul>
-                        </li>
+                       <li class="nav-item">
+			                                    <a href="'.$this->baseUrl.'" class="nav-link '.$home.'">Home</a>
+			                                </li>
 
-                        <li class="nav-item">
-                            <a href="#" class="nav-link dropdown-toggle">
-                                Pages
-                            </a>
+			                                <li class="nav-item">
+			                                    <a href="#" class="nav-link dropdown-toggle '.$aboutCont.'">
+			                                        About us            
+			                                    </a>
+			                                    <ul class="dropdown-menu">
+			                                        <li class="nav-item">
+			                                            <a href="' .$this->baseUrl. 'history" class="nav-link ' .$about. '">History</a>
+			                                        </li>
+			                                    </ul>
+			                                </li>
 
-                            <ul class="dropdown-menu">
-                                <li class="nav-item">
-                                    <a href="graduate-admission.html" class="nav-link">Graduate Admission</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a href="campus-life.html" class="nav-link">Campus Life</a>
-                                </li>
+			                                <li class="nav-item">
+			                                    <a href="#" class="nav-link dropdown-toggle '.$org.'">
+			                                        Organization            
+			                                    </a>
+			                                    <ul class="dropdown-menu">
+			                                        <li class="nav-item">
+			                                            <a href="' .$this->baseUrl. 'deans" class="nav-link ' .$deans. '">Deans of Faculty</a>
+			                                        </li>
+			                                    </ul>
+			                                </li>
 
+			                                <li class="nav-item">
+			                                    <a href="'.$this->baseUrl.'staff" class="nav-link '.$people.'">staff</a>
+			                                </li>
 
+			                                <li class="nav-item">
+			                                    <a href="#" class="nav-link dropdown-toggle">
+			                                        Department            
+			                                    </a>
+			                                    <ul class="dropdown-menu">
+			                                        <li class="nav-item">
+			                                            <a href="'.$this->baseUrl.'departments/biochemistry" target="new" class="nav-link" target="_blank">Biochemistry</a>
+			                                        </li>
+			                                        <li class="nav-item">
+			                                            <a href="'.$this->baseUrl.'departments/biology" target="new" class="nav-link" target="_blank">Biology</a>
+			                                        </li>
+			                                        <li class="nav-item">
+			                                            <a href="'.$this->baseUrl.'departments/botany" target="new" class="nav-link" target="_blank">Botany</a>
+			                                        </li>
+			                                        <li class="nav-item">
+			                                            <a href="'.$this->baseUrl.'departments/microbiology" target="new" class="nav-link" target="_blank">Microbiology</a>
+			                                        </li>
+			                                        <li class="nav-item">
+			                                            <a href="'.$this->baseUrl.'departments/zoology" target="new" class="nav-link" target="_blank">Zoology</a>
+			                                        </li>
+			                                    </ul>
+			                                </li>
 
-                                <li class="nav-item">
-                                    <a href="alumni.html" class="nav-link">Alumni</a>
-                                </li>
+			                                <li class="nav-item">
+			                                    <a href="'.$this->baseUrl.'contact-us" class="nav-link '.$contact.'">Contact Us</a>
+			                                </li>
+			                            </ul>
 
-                                <li class="nav-item">
-                                    <a href="#" class="nav-link dropdown-toggle">
-                                        Academics
-                                    </a>
-
-                                    <ul class="dropdown-menu">
-                                        <li class="nav-item">
-                                            <a href="academics.html" class="nav-link">Academics</a>
-                                        </li>
-
-                                        <li class="nav-item">
-                                            <a href="academics-details.html" class="nav-link">Academics Details</a>
-                                        </li>
-                                    </ul>
-                                </li>
-
-                                <li class="nav-item">
-                                    <a href="#" class="nav-link dropdown-toggle">
-                                        Latest News
-                                    </a>
-
-                                    <ul class="dropdown-menu">
-                                        <li class="nav-item">
-                                            <a href="latest-news.html" class="nav-link">Our Latest News</a>
-                                        </li>
-
-                                        <li class="nav-item">
-                                            <a href="news-details.html" class="nav-link">News Details</a>
-                                        </li>
-                                    </ul>
-                                </li>
-
-                                <li class="nav-item">
-                                    <a href="faq.html" class="nav-link">FAQ</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a href="#" class="nav-link dropdown-toggle">
-                                        Users
-                                    </a>
-
-                                    <ul class="dropdown-menu">
-                                        <li class="nav-item">
-                                            <a href="login.html" class="nav-link">Login</a>
-                                        </li>
-
-                                        <li class="nav-item">
-                                            <a href="register.html" class="nav-link">Register</a>
-                                        </li>
-
-                                        <li class="nav-item">
-                                            <a href="recover-password.html" class="nav-link">Recover Password</a>
-                                        </li>
-                                    </ul>
-                                </li>
-                                <li class="nav-item">
-                                    <a href="privacy-policy.html" class="nav-link">Privacy Policy</a>
-                                </li>
-
-                                <li class="nav-item">
-                                    <a href="terms-conditions.html" class="nav-link">Terms And Conditions</a>
-                                </li>
-
-                                <li class="nav-item">
-                                    <a href="coming-soon.html" class="nav-link">Coming Soon</a>
-                                </li>
-
-                                <li class="nav-item">
-                                    <a href="404.html" class="nav-link">404 Page</a>
-                                </li>
-                            </ul>
-                        </li>
-
-                        <li class="nav-item">
-                            <a href="#" class="nav-link dropdown-toggle">
-                                Courses
-                            </a>
-
-                            <ul class="dropdown-menu">
-                                <li class="nav-item">
-                                    <a href="courses.html" class="nav-link">Courses</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a href="courses-details.html" class="nav-link">Courses Details</a>
-                                </li>
-                            </ul>
-                        </li>
-
-                        <li class="nav-item">
-                            <a href="#" class="nav-link dropdown-toggle">
-                                Health Care
-                            </a>
-
-                            <ul class="dropdown-menu">
-                                <li class="nav-item">
-                                    <a href="health-care.html" class="nav-link">Health Care</a>
-                                </li>
-
-                                <li class="nav-item">
-                                    <a href="health-care-details.html" class="nav-link">Health Care Details</a>
-                                </li>
-                            </ul>
-                        </li>
-
-                        <li class="nav-item">
-                            <a href="#" class="nav-link dropdown-toggle">
-                                Events
-                            </a>
-
-                            <ul class="dropdown-menu">
-                                <li class="nav-item">
-                                    <a href="events.html" class="nav-link">Events</a>
-                                </li>
-
-                                <li class="nav-item">
-                                    <a href="events-details.html" class="nav-link">Events Details</a>
-                                </li>
-                            </ul>
-                        </li>
-
-                        <li class="nav-item">
-                            <a href="contact-us.html" class="nav-link">Contact Us</a>
-                        </li>
                     </ul>
 
                     <div class="others-options">

@@ -12,3 +12,4 @@ $router->addRoute('/', HomeController::class, 'index');
 $router->addRoute('/user', UserController::class, 'index');
 $router->addRoute('/creative', CreativeController::class, 'home');
 $router->addRoute('/faculty', FacultyController::class, 'index');
+$router->addRoute('/faculty/history', FacultyController::class, 'history');

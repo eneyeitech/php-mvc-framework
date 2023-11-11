@@ -16,7 +16,14 @@ class FacultyController extends Controller
     public function index()
     {
         $this->siteDetails['vPage'] = 'index';
-        $this->siteDetails['title'] = 'Academic Staff';
+        $this->siteDetails['title'] = 'Home';
         $this->render('pages/faculty/index', $this->siteDetails);
+    }
+
+    public function history()
+    {
+        $this->siteDetails['vPage'] = 'history';
+        $this->siteDetails['title'] = 'History';
+        $this->render('pages/faculty/history', $this->siteDetails);
     }
 }
