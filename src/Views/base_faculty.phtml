@@ -50,8 +50,14 @@
         <?php $this->include("partials/faculty/_sidebar--modal.phtml") ?>
         <!-- End Sidebar Modal -->
 
+         <!-- Specific page content goes here -->
+        <div class="container-fluid">
+         <?php $this->content(); ?>
+        </div>
+        <!-- End Content-->
+
         <!-- Start Welcome message -->
-        <?php $this->include("partials/faculty/_welcome--message.phtml") ?>
+        <?php //$this->include("partials/faculty/_welcome--message.phtml") ?>
         <!-- End Welcome message -->
 
         <!--Start Banner Area-->

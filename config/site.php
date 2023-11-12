@@ -9,6 +9,7 @@ return [
     'qualifiedName' => 'Faculty of Engineering',
     'facUrl'=>'https://engineering.abu.edu.ng',
     'instName'=>'Ahmadu Bello University<br>Zaria - Nigeria',
+    'map'=>'engineering',
     'headName'=>'Prof. Mohammed-Dabo<br> Ibrahim Ali',
     'headTitle'=>'Dean',
     'head_img_url'=>'assets/faculty/images/faculty/dean/M_Dabo.jpg',
