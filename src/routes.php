@@ -12,4 +12,7 @@ $router->addRoute('/', HomeController::class, 'index');
 $router->addRoute('/user', UserController::class, 'index');
 $router->addRoute('/creative', CreativeController::class, 'home');
 $router->addRoute('/faculty', FacultyController::class, 'index');
-$router->addRoute('/faculty/history', FacultyController::class, 'history');
+$router->addRoute('/fac-history', FacultyController::class, 'history');
+$router->addRoute('/fac-deans', FacultyController::class, 'deans');
+$router->addRoute('/fac-staff', FacultyController::class, 'staff');
+$router->addRoute('/fac-contact', FacultyController::class, 'contact');

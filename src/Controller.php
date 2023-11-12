@@ -25,7 +25,8 @@ class Controller
         }
         Config::setDirectory(static::$config_path);
         $this->siteDetails = Config::get('site');
-        
+        $this->siteDetails['page'] = 'home';
+        $this->siteDetails['sub_page'] = '';
     }
 
 

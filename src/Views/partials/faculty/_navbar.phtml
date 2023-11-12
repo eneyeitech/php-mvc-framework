@@ -15,7 +15,7 @@
     <div class="desktop-nav">
         <div class="container-fluid">
             <nav class="navbar navbar-expand-md navbar-light">
-                <a class="navbar-brand" href="index.html">
+                <a class="navbar-brand" href="/faculty">
                     <img src="assets/faculty/images/white-logo.png" alt="logo">
                 </a>
                 <div class="site-brand-name" style="padding-right:50px; border-right: 1px solid gray;">
@@ -25,33 +25,33 @@
                 <div class="collapse navbar-collapse mean-menu" id="navbarSupportedContent">
                     <ul class="navbar-nav ms-auto">
                        <li class="nav-item">
-			                                    <a href="'.$this->baseUrl.'" class="nav-link '.$home.'">Home</a>
+			                                    <a href="/faculty" class="nav-link <?php echo $page=='home'?'active':''; ?>">Home</a>
 			                                </li>
-
+											
 			                                <li class="nav-item">
-			                                    <a href="#" class="nav-link dropdown-toggle '.$aboutCont.'">
+			                                    <a href="#" class="nav-link dropdown-toggle <?php echo $page=='about'?'active':''; ?>">
 			                                        About us            
 			                                    </a>
 			                                    <ul class="dropdown-menu">
 			                                        <li class="nav-item">
-			                                            <a href="' .$this->baseUrl. 'history" class="nav-link ' .$about. '">History</a>
+			                                            <a href="/fac-history" class="nav-link  <?php echo $sub_page=='history'?'active':''; ?>">History</a>
 			                                        </li>
 			                                    </ul>
 			                                </li>
 
 			                                <li class="nav-item">
-			                                    <a href="#" class="nav-link dropdown-toggle '.$org.'">
+			                                    <a href="#" class="nav-link dropdown-toggle <?php echo $page=='org'?'active':''; ?>">
 			                                        Organization            
 			                                    </a>
 			                                    <ul class="dropdown-menu">
 			                                        <li class="nav-item">
-			                                            <a href="' .$this->baseUrl. 'deans" class="nav-link ' .$deans. '">Deans of Faculty</a>
+			                                            <a href="/fac-deans" class="nav-link <?php echo $sub_page=='deans'?'active':''; ?>">Deans of Faculty</a>
 			                                        </li>
 			                                    </ul>
 			                                </li>
 
 			                                <li class="nav-item">
-			                                    <a href="'.$this->baseUrl.'staff" class="nav-link '.$people.'">staff</a>
+			                                    <a href="/fac-staff" class="nav-link <?php echo $page=='staff'?'active':''; ?>">staff</a>
 			                                </li>
 
 			                                <li class="nav-item">
@@ -77,8 +77,8 @@
 			                                    </ul>
 			                                </li>
 
-			                                <li class="nav-item">
-			                                    <a href="'.$this->baseUrl.'contact-us" class="nav-link '.$contact.'">Contact Us</a>
+			                                <li class="nav-item <?php echo $page=='contact'?'active':''; ?>">
+			                                    <a href="/fac-contact" class="nav-link '.$contact.'">Contact Us</a>
 			                                </li>
 			                            </ul>
 

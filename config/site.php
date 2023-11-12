@@ -9,7 +9,7 @@ return [
     'qualifiedName' => 'Faculty of Engineering',
     'facUrl'=>'https://engineering.abu.edu.ng',
     'instName'=>'Ahmadu Bello University<br>Zaria - Nigeria',
-    'map'=>'engineering',
+    'map'=>'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3914.475523441351!2d7.647619073406308!3d11.1523847521499!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x11b285315a799c41%3A0xa936a85dd2bb1d9b!2sFaculty%20of%20Engineering%2C%20Ahmadu%20Bello%20University%20Zaria!5e0!3m2!1sen!2sng!4v1699783567597!5m2!1sen!2sng" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade',
     'headName'=>'Prof. Mohammed-Dabo<br> Ibrahim Ali',
     'headTitle'=>'Dean',
     'head_img_url'=>'assets/faculty/images/faculty/dean/M_Dabo.jpg',
