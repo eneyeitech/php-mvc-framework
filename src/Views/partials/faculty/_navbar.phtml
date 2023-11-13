@@ -58,22 +58,9 @@
 			                                    <a href="#" class="nav-link dropdown-toggle">
 			                                        Department            
 			                                    </a>
+												
 			                                    <ul class="dropdown-menu">
-			                                        <li class="nav-item">
-			                                            <a href="'.$this->baseUrl.'departments/biochemistry" target="new" class="nav-link" target="_blank">Biochemistry</a>
-			                                        </li>
-			                                        <li class="nav-item">
-			                                            <a href="'.$this->baseUrl.'departments/biology" target="new" class="nav-link" target="_blank">Biology</a>
-			                                        </li>
-			                                        <li class="nav-item">
-			                                            <a href="'.$this->baseUrl.'departments/botany" target="new" class="nav-link" target="_blank">Botany</a>
-			                                        </li>
-			                                        <li class="nav-item">
-			                                            <a href="'.$this->baseUrl.'departments/microbiology" target="new" class="nav-link" target="_blank">Microbiology</a>
-			                                        </li>
-			                                        <li class="nav-item">
-			                                            <a href="'.$this->baseUrl.'departments/zoology" target="new" class="nav-link" target="_blank">Zoology</a>
-			                                        </li>
+												<?php $this->include("partials/faculty/_navbar--departments.phtml") ?>
 			                                    </ul>
 			                                </li>
 

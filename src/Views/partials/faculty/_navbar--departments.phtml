@@ -1,0 +1,15 @@
+<?php //print_r($departments) ?>
+
+<?php if (count($departments) > 0) { ?>
+    <?php foreach ($departments as $department) : ?>
+        <?php if (isset($department['name']) && $department['name']) { ?>
+            <li class="nav-item">
+                <a href="<?=$department['link']?>" class="nav-link" target="_blank"><?=$department['name']?></a>
+            </li>
+        <?php } ?>
+    <?php endforeach ?>
+<?php } else { ?>
+    <li class="nav-item">
+        <a href="#" class="nav-link" target="_blank">Nil</a>
+    </li>
+<?php } ?>

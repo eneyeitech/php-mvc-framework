@@ -4,12 +4,12 @@
 				                    <div class="col-lg-4 col-sm-6">
 				                        <div class="footer-logo-area">
 				                            <a href="' .$this->baseUrl. '"><img src="assets/faculty/images/white-logo.png" alt="Image" class="footer-logo"></a>
-				                            <p>'. ADDRESS. '.</p>
+				                            <p><?=$contact['address']?></p>
 				                            <div class="contact-list">
 				                                <ul>
-				                                    <li><a href="tel:'. PHONE_NUM. '">'. PHONE_NUM. '
+				                                    <li><a href="tel:'. PHONE_NUM. '"><?=$contact['phone']?>
 				                                    </a></li>
-				                                    <li><a href="mailto:'. EMAIL. '">'. EMAIL. '</a></li>
+				                                    <li><a href="mailto:'. EMAIL. '"><?=$contact['email']?></a></li>
 				                                </ul>
 				                            </div>
 				                        </div>

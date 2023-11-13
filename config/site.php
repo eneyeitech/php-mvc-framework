@@ -60,7 +60,7 @@ The Department of Chemical Engineering was initially established in 1972 as the 
    
     'contact'=>[
         'phone'=>'',
-        'address'=>'Faculty of Engineering,<br> Ahmadu Bello University, Samaru Main Campus,<br> Zaria - Nigeria.<br> <br> <b>Dean</b><br>Prof. Mohammed-Dabo Ibrahim Ali<br>engg@abu.edu.ng<br> +234 803 361 1734<br><br><b>Deputy Dean</b><br>Dr. Muktar Bello<br>@abu.edu.ng<br> +234<br><br> <b>Faculty Officer</b><br>Mal. Ibrahim Mohammed<br>+234',
+        'address'=>'Faculty of Engineering,<br> Ahmadu Bello University, Samaru Main Campus,<br> Zaria - Nigeria.<br> <br> <b>Dean</b><br>Prof. Mohammed-Dabo Ibrahim Ali<br>engg@abu.edu.ng<br> +234 803 361 1734',
         'email'=>'',
     ],
     'view_path' => realpath('./views')

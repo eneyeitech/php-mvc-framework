@@ -27,6 +27,8 @@ class Controller
         $this->siteDetails = Config::get('site');
         $this->siteDetails['page'] = 'home';
         $this->siteDetails['sub_page'] = '';
+        $depts_array = Config::getYaml('departments');
+        $this->siteDetails['departments'] = $depts_array;
     }
 
 
