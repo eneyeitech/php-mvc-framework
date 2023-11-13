@@ -1,0 +1,52 @@
+	<div class="campus-life-area pt-100 pb-70">
+		<div class="container">
+			<div class="row justify-content-center">
+				<?php
+				if (is_array($staff)) {
+					if (count($staff) > 0) {
+						for ($i = 0; $i < count($staff); $i++) {
+							$val = $staff[$i];
+							$fullName = $rank = $position = $imgName = '';
+
+							if (isset($val['fullName'])) $fullName = $val['fullName'];
+							if (isset($val['rank'])) $rank = $val['rank'];
+							if (isset($val['position'])) $position = $val['position'];
+							if (isset($val['imgName'])) $imgName = $val['imgName'];
+
+				?>
+							<div class="col-lg-3 col-md-4">
+								<div class="single-campus-card">
+									<div class="img">
+										<img class="staff-img" src="assets/faculty/images/faculty/staff/<?= $imgName ?>" width="100%" height="300px" alt="<?= $fullName ?>">
+									</div>
+									<div class="campus-content">
+										<h6 class="text-center"><?=$fullName?></h6>
+										<p class="text-center">
+											<span class="text-sm"><?=$rank?></span>
+											<br>
+											<span class="text-sm"><?=$position?></span>
+										</p>
+									</div>
+								</div>
+							</div>
+						<?php   }
+					} else {
+						?>
+
+						<div class="alert alert-danger text-center">
+							Please, pass a valid parameter with values.
+						</div>
+
+					<?php }
+				} else {
+					?>
+					<div class="alert alert-danger text-center">
+						Please, pass a valid parameter.
+					</div>
+				<?php
+				}
+				?>
+			</div>
+		</div>
+	</div>
+	<!--End Campus Life Area-->

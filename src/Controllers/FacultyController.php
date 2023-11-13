@@ -41,6 +41,9 @@ class FacultyController extends Controller
 
     public function staff()
     {
+        $staff_array = Config::getYaml('staff');
+        //print_r($deans_array);
+        $this->siteDetails['staff'] = $staff_array;
         $this->siteDetails['page'] = 'staff';
         //$this->siteDetails['sub_page'] = '';
         $this->siteDetails['title'] = 'Staff';
